@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 15px;
     background-color: #E1FE6B;
     height: 50vh;
+    flex-wrap: wrap; /* Garante quebra em telas menores */
 }
 
 .parte02 img {
@@ -188,12 +189,10 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 10px;
     }
 
-    .parte02 .conteudo02,
-    .parte03,
-    .parte04,
-    .parte05 {
+    .parte02 .conteudo02 {
         flex-direction: column;
-        align-items: center;
+        height: auto;
+        padding: 20px;
     }
 
     .parte02 img {
