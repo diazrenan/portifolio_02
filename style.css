@@ -69,8 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .parte02 img {
-    width: 220px;
-    height: 220px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 220px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -211,6 +213,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .imagem-curso img {
-        max-width: 90%;
+        max-width: 70%;
     }
 }
